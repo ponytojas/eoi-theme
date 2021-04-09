@@ -1,17 +1,14 @@
-Indigo, a cool blue theme for Open edX
-======================================
+EOI Theme for OpenEdx based on Indigo by overhang
+=================================================
 
-Indigo is an elegant, customizable theme for `Open edX <https://open.edx.org>`__.
+This is a simple theme and customizable theme for `Open edX <https://open.edx.org>`__.
 
-.. image:: ./screenshots/01-landing-page.png
-    :alt: Platform landing page
-
-**Note**: This version of the Indigo theme is compatible with the Koa release of Open edX.
-
-You can view the theme in action at http://demo.openedx.overhang.io.
+**Note**: This version of the EOI theme is compatible with the Koa release of Open edX.
 
 Installation
 ------------
+
+This instructions comes from `Overhanio Indigo's theme <https://github.com/overhangio/indigo>`_
 
 Indigo was specially developed to be used with `Tutor <https://docs.overhang.io>`__ (at least v11.0.0). If you have not installed Open edX with Tutor, then installation instructions will vary.
 
