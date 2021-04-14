@@ -5,7 +5,8 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.5px;
 
-body, body.view-profile {
+body,
+body.view-profile {
   min-height: initial;
   background-color: #fff;
 }
@@ -14,7 +15,8 @@ body, body.view-profile {
   border-radius: 0;
 }
 
-.btn, .global-header .nav-links .secondary .btn {
+.btn,
+.global-header .nav-links .secondary .btn {
   border-radius: 0;
 }
 
@@ -22,9 +24,36 @@ body, body.view-profile {
   font-family: $font-family-title;
 }
 
-h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
+h1,
+h2,
+h3,
+h1 span,
+h2 span,
+h3 span,
+.nav-item {
   font-family: $font-family-title;
 }
+
+.course-info
+  header.course-profile
+  .intro-inner-wrapper
+  .intro
+  .main-cta
+  > a.find-courses:hover:not(:disabled),
+.course-info
+  header.course-profile
+  .intro-inner-wrapper
+  .intro
+  .main-cta
+  a.register:hover:not(:disabled),
+.course-info
+  header.course-profile
+  .intro-inner-wrapper
+  .intro
+  .main-cta
+  a.add-to-cart:hover:not(:disabled) {
+  cursor: pointer;
+  background-color: #70a708;
 
 #content.content-wrapper {
   @include media-breakpoint-up(lg) {
@@ -32,7 +61,32 @@ h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
     padding-bottom: $content-padding-bottom;
     margin-top: $header-height;
   }
-  min-height: calc(100vh - #{$header-height + $content-padding-top + $content-padding-bottom + $footer-height}); // sticky footer
+  min-height: calc(
+    100vh - #{$header-height + $content-padding-top + $content-padding-bottom +
+      $footer-height}
+  ); // sticky footer
+}
+
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
+  border-radius: 5px;
+  color: #333;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: #7DB61A;
+  padding: 7px 18px;
+  text-align: center;
+  text-decoration: none;
+  /* text-shadow: 0 -1px 1px #8cd311; */
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: block;
+  font: normal 1.2rem/1.6rem "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  text-align: center;
+  width: 48.82117%;
 }
 
 ////////////////// Fonts
@@ -44,7 +98,7 @@ header.global-header {
     position: fixed;
     top: 0;
     z-index: 200; // necessary to keep the header on top of other elements
-    overflow: visible;  // fix for Safari
+    overflow: visible; // fix for Safari
   }
   //background-color: #4c61bf;
   box-shadow: none;
@@ -61,10 +115,10 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 /////////////////// Sign in form
 
 .login-register .form-field {
-    // Hide "Sign in with your company or school link"
-    button.enterprise-login {
-        display: none;
-    }
+  // Hide "Sign in with your company or school link"
+  button.enterprise-login {
+    display: none;
+  }
 }
 
 /////////////////// Home page
@@ -89,11 +143,13 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   text-align: center;
 }
 
-.animation-home-header-pop-up, .home > header .outer-wrapper {
+.animation-home-header-pop-up,
+.home > header .outer-wrapper {
   animation: none;
 }
 
-.highlighted-courses .courses, .find-courses .courses {
+.highlighted-courses .courses,
+.find-courses .courses {
   padding-top: 0;
 }
 
@@ -104,10 +160,10 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 
 ////////////////// "View this course as staff/learner/..."
 nav.wrapper-preview-menu {
-    // It is necessary to specify `nav` in order to override the common higher priority rule
-    @include media-breakpoint-up(lg) {
-      margin-top: $header-height;
-    }
+  // It is necessary to specify `nav` in order to override the common higher priority rule
+  @include media-breakpoint-up(lg) {
+    margin-top: $header-height;
+  }
 }
 
 ////////////////// Course about page
@@ -144,9 +200,9 @@ nav.wrapper-preview-menu {
   }
 }
 
-
 /////////////////// Course search
-.find-courses, .university-profile {
+.find-courses,
+.university-profile {
   background-color: #fff;
 }
 
@@ -167,7 +223,9 @@ nav.wrapper-preview-menu {
   background-color: #fff;
 }
 
-.view-profile .wrapper-profile-section-container-one .wrapper-profile-section-one {
+.view-profile
+  .wrapper-profile-section-container-one
+  .wrapper-profile-section-one {
   border: solid $primary;
   border-width: 5px 1px 1px 1px;
 }
@@ -189,20 +247,20 @@ nav.wrapper-preview-menu {
   padding: 25px 40px;
 
   .wrapper-logo {
-      display: none;
+    display: none;
   }
   .copyright {
-      display: none;
+    display: none;
   }
   .nav-legal ul {
-      display: inline-block;
+    display: inline-block;
   }
   footer#footer-openedx .footer-about-openedx {
-      a {
-          float: none;
-      }
-      p {
-          text-align: right;
-      }
+    a {
+      float: none;
+    }
+    p {
+      text-align: right;
+    }
   }
 }
