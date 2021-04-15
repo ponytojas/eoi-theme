@@ -54,6 +54,7 @@ h3 span,
   a.add-to-cart:hover:not(:disabled) {
   cursor: pointer;
   background-color: #70a708;
+}
 
 #content.content-wrapper {
   @include media-breakpoint-up(lg) {
@@ -67,14 +68,30 @@ h3 span,
   ); // sticky footer
 }
 
-
-.course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
+.course-info
+  header.course-profile
+  .intro-inner-wrapper
+  .intro
+  .main-cta
+  > a.find-courses,
+.course-info
+  header.course-profile
+  .intro-inner-wrapper
+  .intro
+  .main-cta
+  a.register,
+.course-info
+  header.course-profile
+  .intro-inner-wrapper
+  .intro
+  .main-cta
+  a.add-to-cart {
   border-radius: 5px;
   color: #333;
   display: inline-block;
   font-size: inherit;
   font-weight: bold;
-  background-color: #7DB61A;
+  background-color: #7db61a;
   padding: 7px 18px;
   text-align: center;
   text-decoration: none;
@@ -82,7 +99,8 @@ h3 span,
   box-sizing: border-box;
   border-radius: 3px;
   display: block;
-  font: normal 1.2rem/1.6rem "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: normal 1.2rem/1.6rem "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   letter-spacing: 1px;
   padding: 10px 0;
   text-align: center;
