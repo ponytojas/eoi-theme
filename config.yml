@@ -11,9 +11,9 @@ EOI_FOOTER_NAV_LINKS:
   - title: "FAQ"
     url: "https://www.desafioempleojoven.es/asset-v1:edX+DemoX+Demo_Course+type@asset+block@faqs.html"
   - title: "Expertos"
-    url: "www.desafioempleojoven.es/asset-v1:edX+DemoX+Demo_Course+type@asset+block@expertos.html"
+    url: "https://www.desafioempleojoven.es/asset-v1:edX+DemoX+Demo_Course+type@asset+block@expertos.html"
   - title: "Contact"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSexAs-2a_-o5XfUoyFxuN7r9Ak_rON5ECuXy99WY25NhcJXFg/viewform"
 EOI_FOOTER_LEGAL_LINKS:
     - title: "Terminos de servicio"
-      url: "www.desafioempleojoven.es/asset-v1:edX+DemoX+Demo_Course+type@asset+block@tos.html"
+      url: "https://www.desafioempleojoven.es/asset-v1:edX+DemoX+Demo_Course+type@asset+block@tos.html"
