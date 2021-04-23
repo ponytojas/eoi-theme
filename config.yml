@@ -6,8 +6,14 @@ EOI_PRIMARY_COLOR: "#7DB61A" # eoi green
 # EOI_FOOTER_NAV_LINKS: []
 # EOI_FOOTER_LEGAL_LINKS: []
 EOI_FOOTER_NAV_LINKS:
-  - title: "About"
-    url: "/about"
+  - title: "Inico"
+    url: "https://www.desafioempleojoven.es/"
+  - title: "FAQ"
+    url: "/faq"
+  - title: "Términos del servicio"
+    url: "/tos"
+  - title: "Expertos"
+    url: "/experts"
   - title: "Contact"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSexAs-2a_-o5XfUoyFxuN7r9Ak_rON5ECuXy99WY25NhcJXFg/viewform"
 EOI_FOOTER_LEGAL_LINKS:
